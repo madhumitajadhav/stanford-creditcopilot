@@ -1,0 +1,9 @@
+streamlit
+langchain
+PyPDF4
+pdfplumber
+google-generativeai
+langchain-google-genai
+faiss-cpu python-dotenv
+Pillow
+pypdf
