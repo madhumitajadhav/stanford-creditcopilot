@@ -4,6 +4,12 @@ PyPDF4
 pdfplumber
 google-generativeai
 langchain-google-genai
-faiss-cpu python-dotenv
+faiss-cpu
+python-dotenv
 Pillow
 pypdf
+pandas
+scikit-learn
+python-docx
+seaborn
+matplotlib
