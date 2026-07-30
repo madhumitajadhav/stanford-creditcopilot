@@ -14,6 +14,24 @@ scikit-learn classifier as a second, independent decisioning signal.
 > The client used throughout the demo ("Barbie") and all supporting documents in
 > `docs/` are synthetic/fictional data created for this proof of concept.
 
+## The story behind the demo
+
+Barbie was on vacation in LA, walking along the beach, when she ran into an old
+friend — Ken, who had long since traded in his beach volleyball days for a career
+in private banking. Catching up on the sand, Barbie mentioned she'd outgrown her
+convertible and had her eye on something bigger: a private plane, so she could fly
+herself between LA, her business ventures, and wherever her next adventure took her.
+
+Ken, now an underwriter at ABC Private Bank, offered to help — but a plane loan for
+a high-net-worth client isn't a handshake on the beach. It means tax returns, trust
+agreements, a credit report, a term sheet, and a proper underwriting process before
+the bank can say yes.
+
+That beach conversation is the scenario this project is built around: Credit Co-Pilot
+follows Barbie's airplane loan from Ken's initial discovery questions through
+analysis, proposal, credit memo, and final credit decision — with an AI co-pilot
+doing the reading, summarizing, and drafting along the way.
+
 ## How it works
 
 The app walks through the underwriting process as a sequence of Streamlit tabs, each
@@ -57,8 +75,8 @@ LLM_Response/           Generated .docx outputs per workflow stage
 1. **Clone and create a virtual environment**
 
    ```bash
-   git clone https://github.com/madhumitajadhav/CreditCoPilot.git
-   cd CreditCoPilot
+   git clone https://github.com/madhumitajadhav/stanford-creditcopilot.git
+   cd stanford-creditcopilot
    python3 -m venv venv
    source venv/bin/activate
    pip install -r requirements.txt
